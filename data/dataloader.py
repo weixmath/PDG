@@ -28,7 +28,6 @@ class PaddingData(data.Dataset):
                 PointcloudRotate(),
                 PointcloudRotatePerturbation(),
                 PointcloudTranslate(),
-                PointcloudJitter(),
             ]
         )
         self.pc_input_num = pc_input_num
